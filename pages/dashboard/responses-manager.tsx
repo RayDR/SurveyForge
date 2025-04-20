@@ -1,8 +1,8 @@
 
-import Layout from '../../components/layout/Layout';
-import ResponsesTable from '../../components/ui/ResponsesTable';
+import Layout from '../../components/modules/Dashboard/Layout';
+import ResponsesTable from '../../components/modules/Dashboard/ResponsesTable';
 
-export default function ResponseViewer() {
+export default function ResponsesManager() {
   return (
     <Layout>
       <div className="space-y-4">

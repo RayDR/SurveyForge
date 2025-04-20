@@ -1,8 +1,8 @@
 
-import Layout from '../../components/layout/Layout';
-import SurveyTable from '../../components/ui/SurveyTable';
+import Layout from '../../components/modules/Dashboard/Layout';
+import SurveyTable from '../../components/modules/Dashboard/SurveyTable';
 
-export default function FormManager() {
+export default function FormsManager() {
   return (
     <Layout>
       <div className="space-y-4">

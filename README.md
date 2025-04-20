@@ -29,7 +29,7 @@
 ## 📁 Project Structure
 
 ```bash
-/pages
+/modules
   /forms/[id].tsx         # Public form view
   /dashboard              # Admin dashboard
     index.tsx             # Graphs + summary

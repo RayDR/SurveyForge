@@ -1,9 +1,9 @@
 
-import Layout from '../../components/layout/Layout';
-import DashboardCharts from '../../components/ui/DashboardCharts';
-import LatestResponses from '../../components/ui/LatestResponses';
+import Layout from '../../components/modules/Dashboard/Layout';
+import DashboardCharts from '../../components/modules/Dashboard/DashboardCharts';
+import LatestResponses from '../../components/modules/Dashboard/LatestResponses';
 
-export default function DashboardHome() {
+export default function Dashboard() {
   return (
     <Layout>
       <div className="space-y-6">
