@@ -19,7 +19,7 @@ export default function LatestResponses() {
       ) : (
         <ul className="space-y-2">
           {responses.map((r: any, idx) => (
-            <li key={idx} className="text-sm border-b pb-1">{r.respondent || 'Anonymous'} - {r.survey_title}</li>
+            <li key={idx} className="text-sm border-b-alternate pb-1">{r.respondent || 'Anonymous'} - {r.survey_title}</li>
           ))}
         </ul>
       )}

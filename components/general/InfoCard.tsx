@@ -9,7 +9,7 @@ export default function InfoCard({
   children,
 }: InfoCardProps) {
   return (
-    <div className={`bg-white p-4 shadow rounded-xl ${containerClass}`}>
+    <div className={`info-card ${containerClass}`}>
       {children ? (
         children
       ) : (

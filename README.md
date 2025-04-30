@@ -1,4 +1,3 @@
-```markdown
 # SurveyForge
 
 **SurveyForge** is a modular, full-featured survey platform inspired by Google Forms. It is designed with scalability, usability, and professionalism in mind — ideal for educational institutions, research groups, and civil associations.

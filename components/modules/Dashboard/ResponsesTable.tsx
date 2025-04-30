@@ -2,9 +2,11 @@ import { useEffect, useState } from 'react';
 import * as XLSX from 'xlsx';
 import API from '../../../services/api';
 import toast from 'react-hot-toast';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 export default function ResponsesTable() {
   const [responses, setResponses] = useState<any[]>([]);
+  const { t } = useLanguage();
 
   useEffect(() => {
     API.get('responses/')
@@ -30,7 +32,7 @@ export default function ResponsesTable() {
         </button>
       </div>
       {responses.length === 0 ? (
-        <p className="text-gray-500 italic">No responses available.</p>
+        <p className="text-gray-500 italic">{t('noResponses')}</p>
       ) : (
         <table className="w-full text-sm border-t min-w-max">
           <thead className="bg-gray-100">
